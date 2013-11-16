@@ -94,9 +94,6 @@ ul > li > a:hover {
 }
 
 /* ----- Main 1 -----*/
-.main1 {
-
-}
 
 .main1 > img {
   display: block;
@@ -141,7 +138,8 @@ ul > li > a:hover {
 }
 
 .box h3 {
-  text-decoration: underline;;
+  text-decoration: underline;
+  display: inline-block;
 }
 
 .box p {
@@ -149,6 +147,12 @@ ul > li > a:hover {
   font-family: sans-serif;
   font-weight: normal;
   font-size: 14px;
+}
+
+sup {
+  vertical-align: 75%;
+  font-size: 12px;
+  text-decoration: none;
 }
 
 #three-stars {
