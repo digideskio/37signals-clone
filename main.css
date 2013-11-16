@@ -110,6 +110,10 @@ ul > li > a:hover {
   height: 162px;
 }
 
+.message1, .message2, .message3 {
+  visibility:hidden;
+}
+
 .box {
   clear: both;
   width: 820px;
