@@ -16,7 +16,7 @@ $(document).ready(function(){
     function(){
     $default_message.detach();
     $('img.arrow_left.second_box').addClass('visibility_on');
-    $('div.container').append('<div class="message2"><h2><span>Hirise</span> remembers the important things about people you’d normally forget.</h2><p>Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</p></div>');
+    $('div.container').append('<div class="message2"><h2><span>Highrise</span> remembers the important things about people you’d normally forget.</h2><p>Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</p></div>');
   }, function(){
     $('img.arrow_left.second_box').removeClass('visibility_on');
     $('div.message2').remove();
