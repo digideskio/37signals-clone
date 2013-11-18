@@ -176,21 +176,34 @@ sup {
   font-size: 20px;
 }
 
-.arrow_right {
-  position: relative;
-  left: -60px;
-  top: -10px;
-  z-index: 100;
-}
-
 .arrow_left {
   position: relative;
-  left: 70px;
-  top: -10px;
-  z-index: 100;
+  left: 200px;
+  top: -150px;
+  visibility: hidden;
+}
+
+.arrow_right {
+  position: relative;
+  left: 40px;
+  top: -150px;
+  visibility: hidden;
+}
+
+.visibility_on {
+  visibility: visible;
 }
 
 #first_a, #second_a, #third_a {
   background: linear-gradient(#FEFEFE, #EEE);
   z-index: 1;
+}
+
+#first_a {
+  margin-left: 40px;
+  margin-right: -30px;
+}
+
+#second_a {
+  margin-right: -30px;
 }
